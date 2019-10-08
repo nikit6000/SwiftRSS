@@ -13,7 +13,7 @@ class RssPreviewPresenter: RssPreviewPresenterProtocol {
     
     var interactor: RssPreviewInteractorInputProtocol?
     
-    var view: RssPreviewViewProtocol?
+    weak var view: RssPreviewViewProtocol?
     
     var router: RssPreviewRouterProtocol?
     
