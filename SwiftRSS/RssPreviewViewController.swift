@@ -31,6 +31,7 @@ class RssPreviewViewController: UIViewController, RssPreviewViewProtocol {
         view.translatesAutoresizingMaskIntoConstraints = false
         view.backgroundColor = .clear
         view.alwaysBounceHorizontal = false
+        view.alwaysBounceVertical = true
         
         return view
     }()
