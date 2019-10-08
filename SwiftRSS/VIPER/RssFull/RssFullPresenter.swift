@@ -12,7 +12,7 @@ class RssFullPresenter : RssFullPresenterProtocol {
     
     var interactor: RssFullInteractorInputProtocol?
     
-    var view: RssFullViewProtocol?
+    weak var view: RssFullViewProtocol?
     
     var router: RssFullRouterProtocol?
     
